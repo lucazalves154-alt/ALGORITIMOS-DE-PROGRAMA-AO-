@@ -13,6 +13,8 @@ public class Main {
         System.out.println(" Qual seu curso ? ADS. ");
         System.out.println(" RA : ");
 
+        //Não consegui ter acesso ao meu RA.
+
         System.out.println(" Qual é sua idade ? 24 Anos. ");
         System.out.println(" Qual é sua altura ? 1,80. ");
         System.out.println(" Qual é seu status na aula ? Presente. ");
