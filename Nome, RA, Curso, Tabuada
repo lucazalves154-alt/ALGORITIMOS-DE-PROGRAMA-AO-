@@ -9,10 +9,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("Óla , meu nome é lucas alves cordeiro.  ");
-        System.out.println("Estou cursando ADS. ");
-        System.out.println("Meu RA :  ");
+        System.out.println(" Nome ? Lucas Alves Cordeiro .  ");
+        System.out.println(" Qual seu curso ? ADS. ");
+        System.out.println(" RA : ");
 
+        System.out.println(" Qual é sua idade ? 24 Anos. ");
+        System.out.println(" Qual é sua altura ? 1,80. ");
+        System.out.println(" Qual é seu status na aula ? Presente. ");
 
         System.out.println("5 x 1 = " + (5 * 2));
         System.out.println("5 x 2 = " + (5 * 3));
