@@ -5,17 +5,13 @@ public class Main {
     public static void main(String[] args) {
 // Lucas alves cordeiro
 
-     Scanner usuario = new Scanner(System.in);
-     String nome;
-     String cpf;
-     String curso;
+   public class Main {
+    public static void main(String[] args) {
 
-     System.out.println("Óla , qual é seu nome ? ");
-     nome = usuario.nextLine();
-     System.out.println("OK , insira o seu CPF agora ");
-     cpf = usuario.nextLine();
-     System.out.println(" Insira seu curso");
-     curso = usuario.nextLine();
+
+        System.out.println("Óla , meu nome é lucas alves cordeiro.  ");
+        System.out.println("Estou cursando ADS. ");
+        System.out.println("Meu RA :  ");
 
 
         System.out.println("5 x 1 = " + (5 * 2));
