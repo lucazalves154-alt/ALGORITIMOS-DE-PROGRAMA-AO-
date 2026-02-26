@@ -9,11 +9,9 @@ public class Main {
 
     // Aluno lucas alves cordeiro
 
-        System.out.println(" Nome ? Lucas Alves Cordeiro .  ");
+        System.out.println(" Nome ? Lucas Alves Cordeiro.  ");
         System.out.println(" Qual seu curso ? ADS. ");
-        System.out.println(" RA : ");
-
-        //Não consegui ter acesso ao meu RA.
+        System.out.println(" RA : 1143442778 ");
 
         System.out.println(" Qual é sua idade ? 24 Anos. ");
         System.out.println(" Qual é sua altura ? 1,80. ");
