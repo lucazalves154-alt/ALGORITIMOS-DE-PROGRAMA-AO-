@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-// Lucas alves cordeiro
 
    public class Main {
     public static void main(String[] args) {
 
+    // Aluno lucas alves cordeiro
 
         System.out.println(" Nome ? Lucas Alves Cordeiro .  ");
         System.out.println(" Qual seu curso ? ADS. ");
