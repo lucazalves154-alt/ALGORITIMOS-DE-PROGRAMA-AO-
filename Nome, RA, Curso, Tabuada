@@ -26,8 +26,31 @@ public class Main {
         System.out.println(" 5 x 9 = " + (5 * 9));
         System.out.println(" 5 x 10 = " + (5 * 10));
 
+       // excercicio 3
+        int num1 = 10;
+        int num2 = 20;
 
+        System.out.println(num1 * num2);
 
+       //excercicio 4
+        int num1 = 10;
+        int num2 = 20;
+        int num3 = 30;
+        int num4 = 40;
+
+        System.out.println(num1 + num2 + num3 + num4 );
+
+         // Exercicio 5
+        double nota1 = 7;
+        double nota2 = 8;
+        double nota3 = 6;
+
+        double media;
+
+        media = ( nota1 + nota2 + nota3) / 3;
+
+        System.out.println(" A media do aluno é: " +  media );
+        
 
         }
     }
