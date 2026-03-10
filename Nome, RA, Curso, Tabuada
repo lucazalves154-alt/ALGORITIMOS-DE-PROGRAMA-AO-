@@ -6,15 +6,15 @@ public class Main {
     public static void main(String[] args) {
 
     // Aluno lucas alves cordeiro
-
+        //Exercicio 1
         System.out.println(" Nome ? Lucas Alves Cordeiro.  ");
         System.out.println(" Qual seu curso ? ADS. ");
         System.out.println(" RA : 1143442778 ");
-
+        // Exercicio 2
         System.out.println(" Qual é sua idade ? 24 Anos. ");
         System.out.println(" Qual é sua altura ? 1,80. ");
         System.out.println(" Qual é seu status na aula ? Presente. ");
-
+        // Tabuada do 5:
         System.out.println(" 5 x 1 = " + (5 * 1));
         System.out.println(" 5 x 2 = " + (5 * 2));
         System.out.println(" 5 x 3 = " + (5 * 3));
@@ -26,13 +26,13 @@ public class Main {
         System.out.println(" 5 x 9 = " + (5 * 9));
         System.out.println(" 5 x 10 = " + (5 * 10));
 
-       // excercicio 3
+       // Excercicio 3
         int num1 = 10;
         int num2 = 20;
 
         System.out.println(num1 * num2);
 
-       //excercicio 4
+       //Excercicio 4
         int num1 = 10;
         int num2 = 20;
         int num3 = 30;
