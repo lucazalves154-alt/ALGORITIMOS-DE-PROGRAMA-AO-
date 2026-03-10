@@ -50,7 +50,17 @@ public class Main {
         media = ( nota1 + nota2 + nota3) / 3;
 
         System.out.println(" A media do aluno é: " +  media );
-        
+
+        //Exercicio 11
+        System.out.println(" Digite o ano do seu nascimento e o ano atual , respectivamente ");
+        int nasc , ano ,i , i2;
+        Scanner usuario = new Scanner(System.in);
+        nasc = usuario.nextInt();
+        ano = usuario.nextInt();
+        i = ano - nasc;
+        System.out.println("Sua idade é " + i);
+        i2 = 2030 - nasc;
+        System.out.println("Sua idade em 2030 será " + i2);
 
         }
     }
