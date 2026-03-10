@@ -51,6 +51,18 @@ public class Main {
 
         System.out.println(" A media do aluno é: " +  media );
 
+        // Exercicio 8
+        double nota1 = 8.0;
+        double nota2 = 7.5;
+        double nota3 = 4.5;
+        double nota4 = 9;
+
+        double media;
+
+        media = ( nota1 + nota2 + nota3 +nota4) /4 ;
+
+        System.out.println(" A media do aluno é: " +  media );
+
         //Exercicio 11
         System.out.println(" Digite o ano do seu nascimento e o ano atual , respectivamente ");
         int nasc , ano ,i , i2;
