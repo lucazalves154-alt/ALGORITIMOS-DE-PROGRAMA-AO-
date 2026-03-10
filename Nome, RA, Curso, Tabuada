@@ -50,6 +50,19 @@ public class Main {
         media = ( nota1 + nota2 + nota3) / 3;
 
         System.out.println(" A media do aluno é: " +  media );
+        //Exercicio 6
+         double r1,r2,r3,r4;
+
+        r1 = (20 - 15 ) / 2;
+        r2 = Math.pow(2,(5.0 /20 )) + 30.0 / Math.pow(15 , 2);
+        r3 = 35 / (6 + 2);
+        r4 = 23 % 4;
+
+
+        System.out.println(" Resultado 1 : " + r1);
+        System.out.println(" Resultado 2 : " + r2);
+        System.out.println(" Resultado 3 : " + r3);
+        System.out.println(" Resultado 4 : " + r4);
 
         // Exercicio 8
         double nota1 = 8.0;
@@ -73,6 +86,13 @@ public class Main {
         System.out.println("Sua idade é " + i);
         i2 = 2030 - nasc;
         System.out.println("Sua idade em 2030 será " + i2);
+        //Exercicio 7
+
+         if ((120 - 30) == Math.pow(3, 30)){ //true
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+     
 
         }
     }
