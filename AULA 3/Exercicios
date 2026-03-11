@@ -1,1 +1,21 @@
+//Aluno Lucas Alves Cordeiro
 
+
+
+
+
+
+
+
+
+//Excercicio 2
+Scanner usuario = new Scanner(System.in);
+        int idade;
+
+        System.out.println(" Qual é sua idade ? ");
+        idade = usuario.nextInt();
+
+        if ( idade < 17 ) {
+            System.out.println(" Menor de idade ");
+        }else if ( idade > 18) {
+            System.out.println(" Maior de idade");
