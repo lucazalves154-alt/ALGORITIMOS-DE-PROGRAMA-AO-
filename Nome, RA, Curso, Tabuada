@@ -50,6 +50,7 @@ public class Main {
         media = ( nota1 + nota2 + nota3) / 3;
 
         System.out.println(" A media do aluno é: " +  media );
+
         //Exercicio 6
          double r1,r2,r3,r4;
 
@@ -63,6 +64,22 @@ public class Main {
         System.out.println(" Resultado 2 : " + r2);
         System.out.println(" Resultado 3 : " + r3);
         System.out.println(" Resultado 4 : " + r4);
+
+        // Exercicio 7
+         if ((120 - 30) == Math.pow(3 ,30)) {
+            System.out.println(" True ");
+    }else{
+            System.out.println(" False ");
+           // Resultado (Falso)
+           
+         if ((! ((20 % 4 )== 1) || (9 != 9))) {
+            // Resultado (Verdadeiro)
+
+         if (((5 % 2 ) > 3)) {
+            // Resultado (Falso)
+
+          if (('a' == 'A')) {
+            // Resultado (Falso)
 
         // Exercicio 8
         double nota1 = 8.0;
