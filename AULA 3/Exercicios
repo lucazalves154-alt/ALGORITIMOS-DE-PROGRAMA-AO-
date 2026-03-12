@@ -1,12 +1,13 @@
 //Aluno Lucas Alves Cordeiro
+//Exercicio 1
+ Scanner ler = new Scanner(System.in);
 
+          System.out.println("Digite um numero inteiro : ");
 
-
-
-
-
-
-
+          int numero = ler.nextInt();
+          if( numero > 20 ){
+              double metade = numero / 2.0;
+              System.out.println(" A metade do numero é : " + metade);
 
 //Excercicio 2
 Scanner usuario = new Scanner(System.in);
