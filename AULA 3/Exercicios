@@ -51,3 +51,12 @@ Scanner ler = new Scanner(System.in);
                 if(n1 > n2 ) {
                System.out.println(" O " + n2 + " é menor que " + n1);
             }else{
+//Exercicio 5
+ Scanner e = new Scanner(System.in);
+
+           System.out.println(" Informe o numero ");
+           int n1 = e.nextInt();
+        if ( n1>50 && n1<100){
+            System.out.println("  pertece ao  intervalo ");
+        }else{
+            System.out.println(" Não pertence intervalo ");
