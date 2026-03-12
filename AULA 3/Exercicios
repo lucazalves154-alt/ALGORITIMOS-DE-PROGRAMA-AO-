@@ -81,4 +81,197 @@ Scanner ler = new Scanner(System.in);
         }
 
         System.out.println("Seu peso ideal é: " + pesoIdeal);
+//Exercicio 7
+import java.util.Scanner;
+public class Main {
+    public static void main(String args[]) {
 
+        Scanner e = new Scanner(System.in);
+
+        System.out.println("Informe o salário:");
+        double salario = e.nextDouble();
+
+        System.out.println("Informe quantos anos trabalha na empresa:");
+        int anos = e.nextInt();
+
+        double bonus;
+
+        if (anos >= 5) {
+            bonus = salario * 0.20;
+        } else {
+            bonus = salario * 0.10;
+        }
+
+        System.out.println("O valor do bônus é: " + bonus);
+
+        e.close();
+    }
+}
+//Exercicio 8
+ String senha =("R10p5");
+        Scanner e = new Scanner(System.in);
+        System.out.println("INFORME A SENHA ");
+        String tentativa = e.nextLine();
+        if (senha.equals(tentativa)) {
+           System.out.println("senha correta ");
+        } else {
+            System.out.println("acesso negado");
+        }
+//Exercicio 9
+       Scanner e = new Scanner(System.in);
+
+        double salario, prestacao, limite;
+
+        System.out.println("Digite o salario bruto:");
+        salario = e.nextDouble();
+
+        System.out.println("Digite o valor da prestacao:");
+        prestacao = e.nextDouble();
+
+        limite = salario * 0.30;
+
+        if (prestacao > limite) {
+            System.out.println("Empréstimo não pode ser concedido!");
+        } else {
+            System.out.println("Empréstimo pode ser concedido!");
+        }
+Exercicio 10
+       Scanner e = new Scanner(System.in);
+
+        int n1, n2, n3;
+
+        System.out.println("Digite o primeiro número:");
+        n1 = e.nextInt();
+
+        System.out.println("Digite o segundo número:");
+        n2 = e.nextInt();
+
+        System.out.println("Digite o terceiro número:");
+        n3 = e.nextInt();
+
+        if (n1 == n2 && n2 == n3) {
+            System.out.println("Os números são iguais");
+        } else {
+
+            int maior = n1;
+
+            if (n2 > maior) {
+                maior = n2;
+            }
+
+            if (n3 > maior) {
+                maior = n3;
+            }
+
+            System.out.println("O maior número é: " + maior);
+        }
+
+    }
+}
+//Exercicio 11
+       Scanner e = new Scanner(System.in);
+
+        int idade;
+
+        System.out.println("Digite a idade do nadador:");
+        idade = e.nextInt();
+
+        if (idade >= 5 && idade <= 7) {
+            System.out.println("Categoria: Infantil A");
+        }
+        else if (idade >= 8 && idade <= 10) {
+            System.out.println("Categoria: Infantil B");
+        }
+        else if (idade >= 11 && idade <= 13) {
+            System.out.println("Categoria: Juvenil A");
+        }
+        else if (idade >= 14 && idade <= 17) {
+            System.out.println("Categoria: Juvenil B");
+        }
+        else if (idade >= 18) {
+            System.out.println("Categoria: Sênior");
+        }
+        else {
+            System.out.println("Idade fora das categorias");
+        }
+
+    }
+}
+//Exercicio 12
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner e = new Scanner(System.in);
+
+        double salario, desconto;
+
+        System.out.println("Digite o salario:");
+        salario = e.nextDouble();
+
+        if (salario <= 600) {
+            desconto = 0;
+        }
+        else if (salario <= 1200) {
+            desconto = salario * 0.20;
+        }
+        else if (salario <= 2000) {
+            desconto = salario * 0.25;
+        }
+        else {
+            desconto = salario * 0.30;
+        }
+
+        System.out.println("Desconto do INSS: R$ " + desconto);
+
+    }
+}
+//Exercicio 13
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner e = new Scanner(System.in);
+
+        double n1, n2, resultado;
+        char op;
+
+        System.out.println("Digite o primeiro numero:");
+        n1 = e.nextDouble();
+
+        System.out.println("Digite o segundo numero:");
+        n2 = e.nextDouble();
+
+        System.out.println("Digite a operacao (+  -  *  /):");
+        op = e.next().charAt(0);
+
+        if (op == '+') {
+            resultado = n1 + n2;
+            System.out.println("Resultado: " + resultado);
+        }
+        else if (op == '-') {
+            resultado = n1 - n2;
+            System.out.println("Resultado: " + resultado);
+        }
+        else if (op == '*') {
+            resultado = n1 * n2;
+            System.out.println("Resultado: " + resultado);
+        }
+        else if (op == '/') {
+
+            if (n2 <= 0) {
+                System.out.println("Impossível dividir!");
+            } else {
+                resultado = n1 / n2;
+                System.out.println("Resultado: " + resultado);
+            }
+
+        }
+        else {
+            System.out.println("Sinal inválido");
+        }
+
+    }
+}
