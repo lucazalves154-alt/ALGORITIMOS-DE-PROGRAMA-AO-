@@ -1,11 +1,11 @@
 // Aluno Lucas alves cordeiro
 
-//Exercicio 1
+//Exercicio 1 :
 Scanner usuario = new Scanner(System.in);
 
         int  semana;
 
-        System.out.println(" Escolha um numero de 1 a 7 : ");
+        System.out.println(" Digita um numero de 1 a 7 : ");
 
         semana = usuario.nextInt();
 
@@ -15,7 +15,7 @@ Scanner usuario = new Scanner(System.in);
             System.out.println(" Domingo ");
                 break;
             case 2:
-                System.out.println(" Você escoheu o numero 2 ");
+                System.out.println(" Você escolheu o numero 2 ");
                 System.out.println(" Segunda-feira  ");
                 break;
             case 3:
@@ -41,12 +41,12 @@ Scanner usuario = new Scanner(System.in);
                 System.out.println(" Sabádo");
                 break;
 
-//Exercicio 2
+//Exercicio 2 :
 Scanner usuario = new Scanner(System.in);
 
         int  mes;
 
-        System.out.println(" Escolha um numero de 1 a 12 : ");
+        System.out.println(" Digita um numero de 1 a 12 : ");
 
         mes = usuario.nextInt();
 
@@ -101,6 +101,27 @@ Scanner usuario = new Scanner(System.in);
                 System.out.println(" Você escolheu o numero 12 : ");
                 System.out.println( " Dezembro ");
                 break;
+//Exercicio 3 : 
+  Scanner usuario = new Scanner(System.in);
+
+       String periodo;
+
+       System.out.println(" Digite um periodo ( M - Matutino , V - Vespetino , N-  Noturno :  ");
+       periodo = usuario.nextLine();
+
+        switch ( periodo ){
+            case "M":
+                System.out.println(" Bom dia ");
+                break;
+            case "V":
+                System.out.println(" Boa tarde ");
+                break;
+            case "N":
+                System.out.println(" Boa noite ");
+                break;
+
+            default:
+                System.out.println(" Alternativa invalida !!");
 
 
         }
