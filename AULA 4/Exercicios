@@ -56,7 +56,7 @@ Scanner usuario = new Scanner(System.in);
             System.out.println(" Janeiro  ");
                 break;
             case 2:
-                System.out.println(" Você escoheu o numero 2 : ");
+                System.out.println(" Você escolheu o numero 2 : ");
                 System.out.println(" Feveiro  ");
                 break;
             case 3:
